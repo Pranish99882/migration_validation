@@ -1,0 +1,19 @@
+{
+  "name": "fonts-shopify-order-check",
+  "version": "1.0.0",
+  "description": "Fetch orders from fonts DB and check availability in Shopify",
+  "type": "module",
+  "main": "src/check-orders.js",
+  "scripts": {
+    "check": "node src/check-orders.js",
+    "test:db": "node src/test-db.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.14.0",
+    "ssh2": "^1.16.0"
+  }
+}
